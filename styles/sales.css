@@ -266,3 +266,16 @@
     .creator-block .creator-portrait{float:none;margin:0 auto 20px;}
     .offer-box,.creator-block,.guarantee-block,.who-for-block{padding:22px;}
   }
+
+/* ============================================================
+   DESKTOP LAYOUT — platform addition 2026-09-24 (Decision 014, user-approved).
+   Applies only at 1280px and above: phones and tablets are unchanged.
+   ============================================================ */
+@media (min-width: 1280px) {
+  html { font-size: 19px; }
+  .wrap { max-width: 1000px; padding: 0 40px; }
+}
+@media (min-width: 1440px) {
+  html { font-size: 20px; }
+  .wrap { max-width: 1080px; padding: 0 48px; }
+}

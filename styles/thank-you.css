@@ -151,3 +151,16 @@
   font-size: 0.85rem;
   color: #6b5e2a;
 }
+
+/* ============================================================
+   DESKTOP LAYOUT — platform addition 2026-09-24 (Decision 014, user-approved).
+   Applies only at 1280px and above: phones and tablets are unchanged.
+   ============================================================ */
+@media (min-width: 1280px) {
+  body { font-size: 19px; }
+  .container { max-width: 960px; }
+}
+@media (min-width: 1440px) {
+  body { font-size: 20px; }
+  .container { max-width: 1020px; }
+}
